@@ -2,24 +2,36 @@
 
 Agentes de IA da Gorila Software House para **Claude Code** e **Cursor**.
 
-## Agentes
+## Time completo
 
-| Agente | Especialidade |
-|--------|--------------|
-| **Bulma** | Frontend — React, Vue, CSS, UI/UX |
-| **Escanor** | Backend — Python, Node.js, PHP |
-| **Gon** | Mobile — React Native, Flutter |
-| **Levi** | QA & Testes — SOLID, Clean Code, PSR |
-| **Nezuko** | Segurança — OWASP, Auth, Hardening |
-| **Saitama** | DevOps — Docker, CI/CD, Infra |
-| **Shikamaru** | Project Management — Planejamento, Docs |
+| Agente | Personagem | Domínio |
+|--------|-----------|---------|
+| **Light** | Light Yagami — Death Note | Coordenador / Orquestrador de agentes |
+| **Shikamaru** | Shikamaru — Naruto | Project Management → entrega plano ao Light |
+| **Escanor** | Escanor — Nanatsu no Taizai | PHP + Laravel + API Docs |
+| **Bulma** | Bulma — Dragon Ball | Frontend (Vue, React, Tailwind) + UX Research |
+| **Ippo** | Ippo — Hajime no Ippo | Banco de dados (PostgreSQL, MySQL, Redis) |
+| **Levi** | Levi — Attack on Titan | QA, testes e qualidade de código |
+| **Nezuko** | Nezuko — Demon Slayer | Segurança e OWASP |
+| **Saitama** | Saitama — One Punch Man | DevOps + SRE |
+| **Gon** | Gon — Hunter x Hunter | Mobile (React Native, Flutter) |
+| **Uraraka** | Uraraka — My Hero Academia | Python + Node.js |
+| **Kurama** | Kurama — Yu Yu Hakusho | Arquitetura de Software e DDD |
+| **Ryuk** | Ryuk — Death Note | Data e Business Intelligence |
+
+## Fluxo de trabalho
+
+```
+Ideia → SHIKAMARU (planeja) → LIGHT (executa orquestrando especialistas) → Entrega
+```
+
+O `LIGHT` pode acionar qualquer agente diretamente quando a tarefa já está clara.
 
 ---
 
 ## Pré-requisitos
 
 - [Claude Code](https://claude.ai/code) instalado
-- [Cursor](https://cursor.com) instalado (opcional)
 - Git configurado com acesso a este repositório
 
 ---
@@ -49,30 +61,19 @@ cd gorila-squad
 
 ## Como usar
 
-### Claude Code (terminal)
-
-Invoque um agente pelo nome no chat:
-
 ```
-/bulma cria um componente de card responsivo
-/escanor cria uma API REST em FastAPI
-/levi escreve testes para esse serviço
-/nezuko faz security review desse controller
-/saitama cria o Dockerfile para esse projeto
-/shikamaru planeja a feature de autenticação
-```
-
-Ou peça diretamente que o Claude delegue automaticamente ao agente correto.
-
-### Cursor
-
-Após instalar as rules no projeto com `./setup.sh /caminho/do/projeto`, use `@` para acionar:
-
-```
-@bulma cria um componente de tabela com paginação
-@escanor refatora essa função seguindo SOLID
-@nezuko analisa vulnerabilidades nesse endpoint
-@saitama configura o GitHub Actions para esse projeto
+/light      implementa o módulo de assinaturas completo
+/shikamaru  planeja a feature de relatórios de agendamentos
+/escanor    cria um endpoint de webhook com validação de assinatura
+/bulma      cria um componente de calendário responsivo com PrimeVue
+/ippo       otimiza as queries de relatório que estão lentas
+/levi       escreve testes Pest para o módulo de planos
+/nezuko     faz security review do fluxo de autenticação
+/saitama    configura o GitHub Actions com deploy automático
+/gon        cria a tela de agendamento no app React Native
+/uraraka    cria um script Python de importação de clientes via CSV
+/kurama     define a arquitetura do módulo de notificações
+/ryuk       cria um relatório de agendamentos por período
 ```
 
 ---
