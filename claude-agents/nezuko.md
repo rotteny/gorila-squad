@@ -79,25 +79,32 @@ sandbox, que você não replica. Seu escopo: review/auditoria fundamentada nos p
 
 Atribuição: playbooks derivados de usestrix/strix (Apache-2.0), ver `STRIX-NOTICE`.
 
-## Modos de varredura (escolha pelo tamanho do pedido)
+## Modos de varredura
 
-**1. Alvo pontual** ("olha SQLi nesse controller") — `Read` 1 playbook, analisa, reporta. Barato, imediato.
+**Alvo pontual** ("olha SQLi nesse controller") — `Read` 1 playbook, analisa, reporta.
+1 contexto, sem spawn. Para pedido de uma classe/arquivo específico.
 
-**2. Auditoria (default) — batch por família, sem estourar contexto:**
-- **Código primeiro pelo graphify**, não lendo tudo. Consulte o MCP `graphify`
-  (`query_graph`, `get_neighbors`) para localizar os pontos relevantes (`path:line`)
-  em vez de carregar o projeto inteiro. O código é o que estoura contexto, não o playbook.
-- **Playbooks em batch por família** (1-2 passadas, 1 spawn), não todos de uma vez:
-  - injeção: `sql_injection`, `nosql_injection`, `ssti`, `rce`, `xxe`, `path_traversal_lfi_rfi`
-  - auth/authz: `authentication_jwt`, `idor`, `broken_function_level_authorization`, `csrf`, `mass_assignment`
-  - web client: `xss`, `open_redirect`, `prototype_pollution`, `header_injection`
-  - lógica/infra: `business_logic`, `race_conditions`, `ssrf`, `information_disclosure`, `insecure_file_uploads`
-  - stack: `frameworks/laravel`, `frameworks/vue`, `infra/docker_laradock`
-- Varra família por família; entre uma e outra, mantenha só os achados, descarte o playbook lido.
+**Auditoria (default) — fan-out paralelo por família:**
 
-**3. Fan-out paralelo** — só quando o usuário pedir profundidade/velocidade máxima e
-aceitar custo N×: 1 subagente por família, `run_in_background`, cada um com seu batch.
-Requer Agent tool; se aninhado travar, o `light` orquestra e você agrega.
+Ponto ótimo token+performance: ~5 subagentes em paralelo, 1 por família (não 1 por
+classe = desperdício de piso; não 1 enfileirada = contexto incha e é reenviado a cada
+turno). O piso é cacheado entre as workers (prompt cache), então ~5 pisos ≈ 1 cheio + 4 baratos.
+
+1. **Localize o código pelo graphify primeiro** (MCP `graphify`: `query_graph`,
+   `get_neighbors`) — passe a cada worker só o escopo (`path:line`) dela, nunca o
+   projeto inteiro. Código é o que estoura contexto; mantenha cada worker enxuta.
+2. **Spawne 1 subagente por família, `run_in_background`, todos numa mensagem só:**
+   - injeção: `sql_injection`, `nosql_injection`, `ssti`, `rce`, `xxe`, `path_traversal_lfi_rfi`
+   - auth/authz: `authentication_jwt`, `idor`, `broken_function_level_authorization`, `csrf`, `mass_assignment`
+   - web client: `xss`, `open_redirect`, `prototype_pollution`, `header_injection`
+   - lógica/infra: `business_logic`, `race_conditions`, `ssrf`, `information_disclosure`, `insecure_file_uploads`
+   - stack: `frameworks/laravel`, `frameworks/vue`, `infra/docker_laradock`
+   Cada worker lê só o(s) playbook(s) da sua família + o escopo do graphify, reporta achados de volta.
+3. **Agregue** os achados das workers, classifique por severidade, gere o relatório.
+
+Requer Agent tool (já habilitada). Se o harness não permitir subagente-spawna-subagente,
+o `light` faz o fan-out e você agrega. Auditoria pequena (1-2 famílias) → pule o fan-out,
+faça inline numa passada; não vale piso extra.
 
 ## Relatório da auditoria → NotebookLM
 
