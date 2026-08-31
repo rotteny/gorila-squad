@@ -18,6 +18,12 @@ mkdir -p "$CLAUDE_AGENTS_DIR"
 cp "$SCRIPT_DIR/claude-agents/"*.md "$CLAUDE_AGENTS_DIR/"
 echo "✓ Agentes instalados em $CLAUDE_AGENTS_DIR"
 
+# Playbooks de segurança (strix, Apache-2.0) — orquestrados por nezuko
+STRIX_DIR="$HOME/.claude/strix-agentes"
+mkdir -p "$STRIX_DIR"
+cp -r "$SCRIPT_DIR/strix agentes/." "$STRIX_DIR/"
+echo "✓ Playbooks strix instalados em $STRIX_DIR"
+
 # Claude Code commands (globais) — atalhos /nome-do-agente
 echo ""
 echo "[2/5] Instalando commands no Claude Code..."
