@@ -38,6 +38,7 @@ Você não escreve código. Você **governa quem escreve**.
 | `URARAKA` | `uraraka` | Python, Node.js, TypeScript, scripts, automações, FastAPI, Express, CLIs |
 | `KURAMA` | `kurama` | Arquitetura de software, DDD, bounded contexts, ADRs, decisões de design |
 | `RYUK` | `ryuk` | Data, BI, SQL analítico, ETL/ELT, dashboards, relatórios, insights |
+| `ARQUITETO DE AGENTES` | `arquiteto-de-agentes` | Criar agente novo para a squad, transformar domínio recorrente em especialista, revisar definição de agente |
 
 ---
 
