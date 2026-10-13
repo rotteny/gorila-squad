@@ -1,0 +1,143 @@
+Política de Cookies: sites do Ministério Público Federal
+Desejamos boas-vindas ao Ministério Público Federal e fazemos um convite para que conheça nossa Política de Cookies.
+
+Nós usamos a tecnologia em nosso site para coletar informações que nos ajudam a melhorar sua experiência conosco e agora esclarecemos todos os pontos necessários sobre essas ações.
+
+1. Contextualização
+A presente Política de Cookies do Ministério Público Federal (“Política”) tem como objetivo fornecer orientações sobre como ocorre o tratamento (coleta, armazenamento, uso, etc.) dos cookies relativos aos usuários que visitam e utilizam as funcionalidades disponíveis nos sites do Ministério Público Federal. Cookies são arquivos auxiliares geridos pelo seu navegador para “memorizar” a visita a páginas na internet.
+
+Esta Política deve ser lida e interpretada em conjunto com a Política de Privacidade e Proteção de Dados Pessoais no Ministério Público Federal. Visite o nosso espaço sobre proteção de dados pessoais para mais informações sobre a Lei Geral de Proteção de Dados Pessoais, Lei 13.709/2018 (“LGPD”) e as medidas de adequação/compliance do Ministério Público Federal.
+
+2. Definições
+ANONIMIZAÇÃO: Utilização de meios técnicos, razoáveis e disponíveis no momento do tratamento de dados pessoais, por meio dos quais um dado perde a possibilidade de associação, direta ou indireta, a um indivíduo. O dado anonimizado não é considerado dado pessoal para os fins da LGPD.
+
+COOKIES: Cookies são, na terminologia da informática, pequenos arquivos de texto depositados por um site servidor no computador do cliente usuário para “memorizar” algumas informações relativas àquela navegação.
+
+DADO PESSOAL: Informação relacionada a pessoa natural identificada ou identificável. Também são considerados dados pessoais aqueles utilizados para formação do perfil comportamental de determinada pessoa natural.
+
+LEI GERAL DE PROTEÇÃO DE DADOS PESSOAIS (“LGPD”): Diploma normativo (Lei nº 13.709, de 14 de agosto de 2018) que dispõe sobre o tratamento de dados pessoais em meios digitais ou físicos realizados por pessoa natural ou por pessoa jurídica, de direito público ou privado, tendo como objetivo defender os titulares de dados pessoais e ao mesmo tempo permitir o uso dos dados para finalidades diversas, equilibrando interesses e harmonizando a proteção humana com o desenvolvimento tecnológico e econômico.
+
+TITULAR DE DADOS PESSOAIS (“TITULAR”): Pessoa natural a quem se referem os dados pessoais que são objeto de tratamento.
+
+TRATAMENTO DE DADOS PESSOAIS (“TRATAMENTO”): Toda operação realizada com dados pessoais, como as que se referem a coleta, produção, recepção, classificação, utilização, acesso, reprodução, transmissão, distribuição, processamento, arquivamento, armazenamento, eliminação, avaliação, controle da informação, modificação, comunicação, transferência, difusão ou extração.
+
+USUÁRIOS DO PORTAL ELETRÔNICO: Para fins desta Política, são os visitantes eventuais do portal eletrônico ou websites do Ministério Público Federal, a exemplo de interessados, servidores, empregados, colaboradores, estagiários ou qualquer outro usuário.
+
+3. Escopo
+A presente Política estabelece as informações relativas ao uso de cookies nos websites do Ministério Público Federal, especialmente no que concerne à relação com dados pessoais dos Usuários durante a sua navegação.
+
+Utiliza-se como referência, quando aplicável, a Lei Geral de Proteção de Dados Pessoais, entre outras normas nacionais e internacionais relativas à privacidade e proteção de dados pessoais.
+
+4. Aplicabilidade
+Esta Política busca conferir a transparência e a compreensão, pelos usuários, sobre as possíveis maneiras como os seus dados pessoais podem ser tratados, por meio dos cookies, em sua interação com nossos sites.
+
+Nesse sentido, também pretende-se trazer informações para garantir que os usuários entendam como poderiam exercer um maior controle sobre os seus dados ao interagir com nosso site.
+
+5. Objetivos
+São objetivos da Política de Cookies dos sites do Ministério Público Federal:
+
+Estabelecer a transparência e as diretrizes que assegurem e reforcem o compromisso da Instituição com o cumprimento das legislações de proteção de dados pessoais aplicáveis; e
+Informar aos Usuários sobre como ocorrem os tratamentos das suas informações e dados pessoais, por meio de cookies, quando da sua mera visita e/ou acesso e utilização dos websites do Ministério Público Federal.
+6. Política de Cookies
+6.1. Definição de Cookies e aplicação
+Os cookies são pequenos arquivos de texto depositados por um site servidor no computador ou outro dispositivo do Usuário (celulares e tablets, por exemplo) quando da sua visita, para permitir a disponibilização de uma página e “memorizar” algumas informações relativas àquela navegação, associar e distinguir os usuários. Nesse sentido, pode-se dizer que cookies são identificadores eletrônicos.
+
+O Ministério Público Federal utiliza cookies para permitir um melhor funcionamento técnico de seus websites, para lembrar determinadas preferências de navegação estabelecidas pelo Usuário, para oferecer serviços relevantes para os Usuários, para identificar o tráfego no website, entre outras finalidades melhor indicadas abaixo.
+
+Os cookies utilizados neste website podem ser próprios (first-party) – isto é, estabelecidos pelo próprio Ministério Público Federal; ou de terceiros (third-party) – ou seja, estabelecido por outros domínios.
+
+Os cookies utilizados nos sites do Ministério Público Federal podem capturar os dados não sigilosos do equipamento, tais como navegador utilizado, versão, definição do monitor e comportamento no portal.
+
+6.2. Cookies usados nos sites  do Ministério Público Federal
+O Ministério Público Federal utiliza, em seus websites, 2 (dois) tipos de cookies distintos, sendo eles: (i) operacionais/técnicos; e (ii) analíticos. As informações sobre cada tipo de cookies, por categoria, se encontram abaixo.
+
+É importante elencar que, quando for indicado, o “tempo máximo de vigência” de um cookie se refere ao período de sua manutenção após o acesso aos sites do Ministério Público Federal pela primeira vez. É possível que o usuário diminua este período e apague esses cookies pela gestão de seu próprio navegador, como explicado no item 6.4.
+
+1). Os cookies operacionais/técnicos se destinam a viabilizar o ato de navegação no website, operando para que as funcionalidades mais básicas efetivamente sejam oferecidas ao Usuário, tais como:
+
+ativar funcionalidades essenciais, como software e antivírus;
+dispor nosso conteúdo de forma adequada ao tamanho da sua tela, velocidade de conexão e tipo de navegador;
+lembrar do seu acesso; e
+compreender o seu comportamento de navegação e como a plataforma está sendo usada.
+Normalmente, tais cookies só são configurados em resposta às suas ações que correspondem a uma solicitação de serviços, por exemplo: definir as suas preferências de privacidade, iniciar sessão ou preencher formulários em alguma de nossas plataformas.
+
+É possível entender melhor o contexto, utilização e finalidade dos cookies operacionais/técnicos utilizados por meio da relação abaixo:
+
+Nome do cookie: cookieBannerDisplayed
+Tempo máximo de vigência: Sem expiração
+
+Finalidade: Esse cookie é utilizado para gravar o aceite da politica de cookies e privacidade dos sites do Ministério Público Federal.
+
+2) Já os cookies analíticos dedicam-se a registrar os dados de uso do website para que possamos aprimorá-lo futuramente, como os dados de índice de audiência da página e de fontes de tráfego. Tais dados nos ajudam a saber quais são as páginas mais e menos populares e a verificar como os Usuários se movimentam no website.
+
+O Ministério Público Federal utiliza cookies analíticos do Google Analytics para geração de dados estatísticos agregados de uso. Ressalta-se que as informações estatísticas geradas para o Ministério Público Federal são agregadas – ou seja, não há individualização.
+
+O Google Analytics é um serviço que permite compreender melhor como os Usuários interagem com os portais e conteúdos disponibilizados nas páginas de sites do Ministério Público Federal. Para a prestação desse serviço, o Google Analytics coleta alguns dados, como aqueles relacionados ao dispositivo/navegador, endereço IP, geolocalização, as atividades no portal, dentre outras possibilidades. É possível que o Google compartilhe tais dados com partes terceiras no caso de haver uma obrigação legal, ou no caso em que partes terceiras tratem os dados em nome do Google.
+
+É possível entender melhor o contexto, utilização e finalidade dos cookies analíticos utilizados por meio da relação abaixo:
+
+Nome do cookie: _ga
+Tempo máximo de vigência: 2 anos
+
+Finalidade: Esse cookie é utilizado para registrar um número individual de ID cujo propósito é gerar dados estatísticos de visitas ao site. 
+
+Nome do cookie: _gat
+Tempo máximo de vigência: 1 dia
+
+Finalidade: Esse cookie é pelo Google Analytics a fins de gerenciar a taxa de requisições à página.
+
+Nome do cookie: _gid
+Tempo máximo de vigência: 1 dia
+
+Finalidade: Esse cookie é utilizado para registrar um número individual de ID cujo propósito é gerar dados estatísticos sobre como o Usuário utiliza o website.
+
+Nome do cookie: collect
+Tempo máximo de vigência: Durante a sessão de navegação
+
+Finalidade: Esse cookie é utilizado para enviar dados do equipamento do visitante e de seu comportamento para o Google Analytics.
+
+Nome do cookie: F1START
+Tempo máximo de vigência: 25 anos
+
+Finalidade: Esse cookie é utilizado para identificar dados da sessão do usuário durante a navegação.
+
+Para entender mais sobre como o Google trata os dados coletados por meio do Google Analytics, bem como conduz as questões de privacidade e proteção de dados nessa seara, clique/acesse:
+
+Política de Privacidade do Google
+Ajuda do Google Analytics > Como proteger seus dados?
+6.3. Cookies de terceiros e redes sociais
+Os Usuários, por meio do nosso website ou websites associados podem acessar links externos, como páginas de parceiros(as) do Ministério Público Federal e de inscrição em eventos, por exemplo; e conteúdos incorporados, tais como vídeos da plataforma YouTube, fotos do Instagram, e publicações do Twitter e Facebook. Nesses casos, essas plataformas terceiras podem acabar por utilizar de seus próprios cookies. Note-se, no entanto, que o Ministério Público Federal não se responsabiliza pelas práticas e políticas de privacidade dessas plataformas de terceiros.
+
+Para entender mais sobre como o Google, o LinkedIn e o Facebook tratam os cookies coletados e conduzem as questões de privacidade e proteção de dados nessa seara, clique/acesse:
+
+Política de Cookies do Google;
+Política de Cookies do LinkedIn;
+Política de Cookies do Facebook;
+6.4. Controle de Cookies
+Caso o Usuário não deseje que os cookies mencionados sejam utilizados quando da sua navegação no nosso website, é possível optar por recusar, desabilitar, ou apagar os registros de cookies através das configurações do navegador utilizado. Chamamos a atenção para o fato de que, ao fazer isso, algumas áreas, ferramentas e funcionalidades poderão ser comprometidas, afetando, dessa forma, o correto funcionamento dos websites do Ministério Público Federal.
+É possível desabilitar os cookies diretamente no seu navegador. Abaixo, listamos como fazer o procedimento nos navegadores mais utilizados, basta clicar/acessar a respectiva opção correspondente ao seu navegador (atenção: a manutenção e atualização do conteúdo é de responsabilidade dos gestores dos sites):
+Google Chrome;
+Internet Explorer;
+Microsoft Edge;
+Mozilla Firefox;
+Opera;
+Safari.
+Por fim, é importante ressaltar que, caso os cookies sejam desabilitados, eles não são automaticamente excluídos do navegador, sendo necessário que esse processo seja feito de forma específica e manualmente por meio das configurações de exclusão/eliminação do navegador.
+
+É ainda possível que o usuário se utilize do recurso de “aba privativa” de seu navegador, o qual poderá desabilitar o novo depósito de cookies na sessão, sem excluir os já ativos. Via de regra, ao pressionar conjuntamente as teclas “Ctrl + Shift + P” (se estiver usando computador) ou ao clicar no gestor de abas do seu navegador e selecionar a opção de navegação privativa (se estiver usando computador e/ou celular ou assemelhado), a sessão privada é iniciada nos principais navegadores do mercado. Abaixo, listamos maiores informações para os navegadores mais utilizados, basta clicar/acessar a respectiva opção correspondente ao seu navegador (atenção: a manutenção e atualização do conteúdo é de responsabilidade dos gestores dos sites):
+
+Google Chrome;
+Internet Explorer;
+Microsft Edge;
+Mozilla Firefox;
+Opera;
+Safari.
+7. Contato em caso de dúvidas
+Em caso de dúvidas sobre as funcionalidades dos nossos sites aos quais esta Política se aplica, ou para comentários e sugestões relativas à mesma, poderá entrar em contato conosco através do e-mail pgr-updp@mpf.mp.br.
+
+8. Alterações na Política de Cookies
+Reitera-se que o Ministério Público Federal reconhece o seu compromisso em zelar pelo tratamento adequado de dados pessoais para fins legítimos que possam ser objeto de suas atividades. Nesse sentido, a presente Política pode ser revisitada periodicamente e, a critério do Ministério Público Federal, podem ser realizadas modificações que atualizem suas disposições de modo a reforçar o compromisso permanente da Instituição com a transparência, a privacidade e a proteção de dados pessoais. As alterações realizadas serão comunicadas oportunamente pelos canais oficiais do Ministério Público Federal.
+
+ 
+Ministério Público Federal
+Julho de 2023.
