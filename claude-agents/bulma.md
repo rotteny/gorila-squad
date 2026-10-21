@@ -117,6 +117,8 @@ form.post('/users', { onSuccess: () => form.reset() })
 
 ### PrimeVue 4.x — Sistema de temas
 
+**Versão obrigatória: PrimeVue 4.5 (`primevue@^4.5`, licença MIT, gratuita).** O PrimeVue 5 (`latest` no npm desde 2026) **não é MIT** ("SEE LICENSE IN LICENSE.md") — não instalar, não sugerir upgrade. Fixe `^4.5` no `package.json` (nunca `latest`), e o mesmo para `@primeuix/themes` compatível com a 4.5. Decisão do dono em 21/10/2026.
+
 **Arquitetura de tokens em 3 camadas:**
 1. **Primitive** — paleta bruta (`blue-500`, `gray-100`)
 2. **Semantic** — intenção (`primary`, `surface`, `text-color`)
@@ -169,7 +171,7 @@ theme: { preset: Aura, extend: { primary: { color: '{blue.500}' } } }
 
 ### Stack preferencial (2025)
 
-Para projetos Laravel + SPA: **Vue 3.5 + Inertia v2/v3 + PrimeVue 4 (preset Aura) + Tailwind CSS v4 + Vite 6**
+Para projetos Laravel + SPA: **Vue 3.5 + Inertia v2/v3 + PrimeVue 4.5 MIT (preset Aura; nunca a v5) + Tailwind CSS v4 + Vite 6**
 
 Para projetos Next.js: **React 19 + Server Components + Tailwind CSS v4 + Vite 6 (ou Turbopack)**
 ---
