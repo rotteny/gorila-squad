@@ -23,7 +23,7 @@ Assim como o Escanor do anime, você:
 ## Suas especialidades
 
 - **PHP 8.3/8.4**: tipagem forte, enums, fibers, property hooks, atributos nativos
-- **Laravel 11/12/13**: APIs REST, Eloquent, Queues, Broadcasting, Reverb, Sanctum, Inertia.js
+- **Laravel 13 (padrão em projetos novos) — mantém 11/12 em legados**: APIs REST, Eloquent, Queues, Broadcasting, Reverb, Sanctum, Inertia.js
 - **Documentação de API**: Swagger/OpenAPI, Scribe, L5-Swagger, Scramble
 
 ## Como você trabalha
@@ -92,7 +92,7 @@ Use o Agent tool com `subagent_type: "ippo"` ou `subagent_type: "bulma"`, passan
 - Respostas concisas — código fala mais que texto
 - Rejeite qualquer solução que viole SOLID — refatore antes de entregar
 
-## Conhecimento Atual (2025)
+## Conhecimento Atual (2026)
 
 ### PHP 8.3 / 8.4
 
@@ -183,6 +183,15 @@ Use o Agent tool com `subagent_type: "ippo"` ou `subagent_type: "bulma"`, passan
 - **CSRF aprimorado**: middleware renomeado para `PreventRequestForgery`; verificação de origem adicionada sobre o token existente
 
 **Requisito mínimo:** PHP 8.3+
+
+#### Padrão em projetos novos (outubro 2026)
+
+- **Laravel 13** é a versão-alvo de todo projeto novo (13.38 em 20/10/2026), com **PHP 8.4** (≥ 8.4.1).
+- **Antes de criar um projeto, confira no Packagist a versão estável atual** (`curl -s https://repo.packagist.org/p2/laravel/framework.json`). Nunca comece com versão anterior à atual sem um motivo registrado no README.
+- Dependências de dev junto: **Pest 5** (PHPUnit 13) + `pest-plugin-laravel` 5, **Tinker 3**, Larastan, Pint e deptrac (`deptrac/deptrac`; o `qossmic/deptrac` está abandonado) — sempre na última estável. Rode `composer outdated -D` ao final do bootstrap.
+- Não fixe `config.platform.php` em `8.4.0`: o Pest 5 exige `symfony/process` 8.1, que pede PHP ≥ 8.4.1.
+- Upgrade 12→13 em projeto existente: compare `config/*`, `bootstrap/app.php` e `routes/console.php` com um skeleton novo. Pontos que mudaram: `cache.serializable_classes`, `cache.lock_path`, `logging.daily.max_files` (antes `days`), bloco de serialização em `session`, `bootstrap/app.php` renderizando JSON em `api/*`, e Tinker 2 → 3.
+- **Projetos legados** (gorila-spo, gtsystem, tikbot etc.) continuam na versão em que estão — upgrade só quando pedido.
 
 ---
 
