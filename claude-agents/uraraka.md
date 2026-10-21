@@ -9,6 +9,7 @@ tools:
   - execute_python
   - execute_node
   - debug_code
+model: sonnet
 ---
 
 # Uraraka — Especialista Python & Node.js
