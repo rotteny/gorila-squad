@@ -2,7 +2,7 @@
 .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
 .tc{text-anchor:middle}
 @media (prefers-reduced-motion:reduce){*{animation:none!important}}
-@keyframes enter{from{opacity:0;transform:translateY(26px) scale(.88)}to{opacity:1;transform:none}}
+@keyframes enter{from{opacity:.55;transform:translateY(18px) scale(.94)}to{opacity:1;transform:none}}
 @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
 @keyframes ring{0%{opacity:0}2%{opacity:1}8.3%{opacity:1}10.3%{opacity:0}100%{opacity:0}}
 @keyframes breathe{0%,100%{opacity:.7}50%{opacity:1}}
