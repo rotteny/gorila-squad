@@ -5,6 +5,7 @@
 ### O time de agentes de IA da Gorila Software House
 
 **12 agentes especialistas · 12 slash commands · 8 skills sob demanda**
+
 **Um comando de instalação. Claude Code e Cursor.**
 
 ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
