@@ -269,12 +269,6 @@ git pull
 
 ---
 
-## 🙏 Agradecimentos
-
-- [**OmniRoute**](https://github.com/cheaper-inference/OmniRoute) — inspiração para a estrutura deste README.
-- [**AniList**](https://anilist.co) — fonte das imagens dos personagens.
-- Autores e estúdios de Death Note, Naruto, Nanatsu no Taizai, Dragon Ball, Hajime no Ippo, Attack on Titan, Demon Slayer, One Punch Man, Hunter x Hunter, My Hero Academia e Yu Yu Hakusho, pelos personagens que dão cara ao time.
-
 <div align="center">
 
 **Feito pela Gorila Software House 🦍**
