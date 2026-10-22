@@ -106,73 +106,73 @@ O `LIGHT` pode acionar qualquer agente diretamente quando a tarefa já está cla
 <table>
   <tr>
     <td align="center" width="25%">
-      <img src="docs/characters/light.png" width="120" alt="Light Yagami"/><br/>
+      <img src="docs/characters/gifs/light.gif" width="220" alt="Light Yagami"/><br/>
       <b>LIGHT</b><br/><sub>Light Yagami · Death Note</sub><br/>
       Coordenador / Orquestrador de agentes
     </td>
     <td align="center" width="25%">
-      <img src="docs/characters/shikamaru.jpg" width="120" alt="Shikamaru Nara"/><br/>
+      <img src="docs/characters/gifs/shikamaru.gif" width="220" alt="Shikamaru Nara"/><br/>
       <b>SHIKAMARU</b><br/><sub>Shikamaru Nara · Naruto</sub><br/>
       Project Management — entrega o plano ao Light
     </td>
     <td align="center" width="25%">
-      <img src="docs/characters/escanor.png" width="120" alt="Escanor"/><br/>
+      <img src="docs/characters/gifs/escanor.gif" width="220" alt="Escanor"/><br/>
       <b>ESCANOR</b><br/><sub>Escanor · Nanatsu no Taizai</sub><br/>
       PHP + Laravel + API Docs
     </td>
     <td align="center" width="25%">
-      <img src="docs/characters/bulma.jpg" width="120" alt="Bulma"/><br/>
+      <img src="docs/characters/gifs/bulma.gif" width="220" alt="Bulma"/><br/>
       <b>BULMA</b><br/><sub>Bulma · Dragon Ball</sub><br/>
       Frontend (Vue, React, Tailwind) + UX Research
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="docs/characters/ippo.jpg" width="120" alt="Ippo Makunouchi"/><br/>
+      <img src="docs/characters/gifs/ippo.gif" width="220" alt="Ippo Makunouchi"/><br/>
       <b>IPPO</b><br/><sub>Ippo Makunouchi · Hajime no Ippo</sub><br/>
       Banco de dados (PostgreSQL, MySQL, Redis)
     </td>
     <td align="center">
-      <img src="docs/characters/levi.png" width="120" alt="Levi Ackerman"/><br/>
+      <img src="docs/characters/gifs/levi.gif" width="220" alt="Levi Ackerman"/><br/>
       <b>LEVI</b><br/><sub>Levi Ackerman · Attack on Titan</sub><br/>
       QA, testes e qualidade de código
     </td>
     <td align="center">
-      <img src="docs/characters/nezuko.png" width="120" alt="Nezuko Kamado"/><br/>
+      <img src="docs/characters/gifs/nezuko.gif" width="220" alt="Nezuko Kamado"/><br/>
       <b>NEZUKO</b><br/><sub>Nezuko Kamado · Demon Slayer</sub><br/>
       Segurança e OWASP
     </td>
     <td align="center">
-      <img src="docs/characters/saitama.jpg" width="120" alt="Saitama"/><br/>
+      <img src="docs/characters/gifs/saitama.gif" width="220" alt="Saitama"/><br/>
       <b>SAITAMA</b><br/><sub>Saitama · One Punch Man</sub><br/>
       DevOps + SRE
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="docs/characters/gon.jpg" width="120" alt="Gon Freecss"/><br/>
+      <img src="docs/characters/gifs/gon.gif" width="220" alt="Gon Freecss"/><br/>
       <b>GON</b><br/><sub>Gon Freecss · Hunter x Hunter</sub><br/>
       Mobile (React Native, Flutter)
     </td>
     <td align="center">
-      <img src="docs/characters/uraraka.png" width="120" alt="Ochaco Uraraka"/><br/>
+      <img src="docs/characters/gifs/uraraka.gif" width="220" alt="Ochaco Uraraka"/><br/>
       <b>URARAKA</b><br/><sub>Ochaco Uraraka · My Hero Academia</sub><br/>
       Python + Node.js
     </td>
     <td align="center">
-      <img src="docs/characters/kurama.jpg" width="120" alt="Kurama"/><br/>
+      <img src="docs/characters/gifs/kurama.gif" width="220" alt="Kurama"/><br/>
       <b>KURAMA</b><br/><sub>Kurama · Yu Yu Hakusho</sub><br/>
       Arquitetura de Software e DDD
     </td>
     <td align="center">
-      <img src="docs/characters/ryuk.jpg" width="120" alt="Ryuk"/><br/>
+      <img src="docs/characters/gifs/ryuk.gif" width="220" alt="Ryuk"/><br/>
       <b>RYUK</b><br/><sub>Ryuk · Death Note</sub><br/>
       Data e Business Intelligence
     </td>
   </tr>
 </table>
 
-<sub>Imagens dos personagens obtidas via [AniList](https://anilist.co); os direitos pertencem aos respectivos autores e estúdios. Uso ilustrativo, sem fins comerciais.</sub>
+<sub>Rostos via [AniList](https://anilist.co) e GIFs via [GIFDB](https://gifdb.com); os direitos pertencem aos respectivos autores e estúdios. Uso ilustrativo, sem fins comerciais.</sub>
 
 ### Tabela rápida
 
@@ -218,6 +218,8 @@ Cada agente carrega o arquivo dele inteiro em contexto toda vez que é invocado.
 
 Exemplo: o `ESCANOR` mantém PHP 8.3/8.4 e Laravel 11/12/13 no próprio arquivo — isso *é* ele. Já a referência de OpenAPI/Swagger saiu para uma skill; ele a invoca apenas quando a tarefa é documentar uma API.
 
+> 🧠 Arquitetura de skills sob demanda desenvolvida por **Hélio Vinícius**.
+
 | Skill | Conteúdo | Agente que aciona |
 |---|---|---|
 | `api-docs-ref` | OpenAPI 3.1, Scramble vs L5-Swagger vs Scribe, Sanctum no spec, contract-first | `ESCANOR` |
@@ -252,7 +254,7 @@ gorila-squad/
 ├── claude-commands/   # 12 slash commands (/light, /escanor, ...)
 ├── claude-skills/     # 8 skills de referência carregadas sob demanda
 ├── cursor-rules/      # regras equivalentes para o Cursor (.mdc)
-├── docs/characters/   # rosto de cada personagem usado neste README
+├── docs/characters/   # rostos (hero) e GIFs (galeria) dos personagens
 ├── CLAUDE.md          # regras de delegação do squad
 └── setup.sh           # instalador
 ```
