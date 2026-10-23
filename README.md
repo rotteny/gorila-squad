@@ -4,13 +4,13 @@
 
 ### O time de agentes de IA da Gorila Software House
 
-**15 agentes especialistas · 15 slash commands · 37 skills sob demanda · 63 playbooks de pentest**
+**15 agentes especialistas · 15 slash commands · 38 skills sob demanda · 63 playbooks de pentest**
 **Um comando de instalação. Claude Code e Cursor.**
 
 ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
 ![Cursor](https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white)
 ![Agentes](https://img.shields.io/badge/agentes-15-blueviolet?style=for-the-badge)
-![Skills](https://img.shields.io/badge/skills-37-success?style=for-the-badge)
+![Skills](https://img.shields.io/badge/skills-38-success?style=for-the-badge)
 ![Contexto](https://img.shields.io/badge/contexto_base-−26%25-orange?style=for-the-badge)
 
 <br/>
@@ -96,7 +96,7 @@ O `setup.sh` instala, nesta ordem: agentes em `~/.claude/agents`, playbooks de s
 |---|---|
 | 👥 **15 especialistas** | Backend, frontend, banco, QA, segurança, DevOps, mobile, Python/Node, arquitetura, dados, planejamento, social media, jurídico e um agente que cria outros agentes |
 | 🎯 **1 coordenador** | O `LIGHT` recebe a tarefa multi-domínio e orquestra os especialistas certos |
-| 🧩 **37 skills sob demanda** | Conhecimento periférico só entra no contexto quando a tarefa pede |
+| 🧩 **38 skills sob demanda** | Conhecimento periférico só entra no contexto quando a tarefa pede |
 | 🛡️ **63 playbooks de pentest** | `NEZUKO` orquestra a base de segurança do [strix](https://github.com/usestrix/strix) |
 | 🖥️ **2 ambientes** | Claude Code (global) e Cursor (por projeto) com a mesma equipe |
 | 📉 **−26% de contexto** | Agentes enxutos: o núcleo fica no agente, o resto vira skill |
@@ -296,7 +296,7 @@ Exemplo: o `ESCANOR` mantém PHP 8.3/8.4 e Laravel 11/12/13 no próprio arquivo 
 | `SHIKAMARU` | `pm-ref` · `templates-doc-pm` |
 | `LIGHT` | `metricas-gestao` (DORA, RICE, MoSCoW, RACI) |
 | `DAZAI` | `post-writer` · `post-formatter` · `post-scorer` · `reels-scripting` · `content-matrix` · `niche-research` · `voice-builder` · `gemini-carousel` · `gemini-infographic` · `youtube-thumbnail` · `graphic-designer` · `hook-generator` |
-| `NARUHODO` | `legal-br` · `gerador-lgpd` |
+| `NARUHODO` | `legal-br` · `leis-br` · `gerador-lgpd` |
 | `ARQUITETO-DE-AGENTES` | `arch-ddd-ref` · `templates-doc-pm` |
 
 Skills de processo, usadas por qualquer agente: `systematic-debugging`, `verification-before-completion`, `writing-skills`.
@@ -330,7 +330,7 @@ Origem e licença dos playbooks em [`strix agentes/ATTRIBUTION.md`](strix%20agen
 gorila-squad/
 ├── claude-agents/     # 15 agentes (frontmatter + persona + núcleo de conhecimento)
 ├── claude-commands/   # 15 slash commands (/light, /escanor, ...)
-├── claude-skills/     # 37 skills de referência carregadas sob demanda
+├── claude-skills/     # 38 skills de referência carregadas sob demanda
 ├── cursor-rules/      # regras equivalentes para o Cursor (.mdc)
 ├── strix agentes/     # playbooks de segurança orquestrados pela NEZUKO
 ├── docs/characters/   # rosto de cada personagem usado neste README

@@ -26,6 +26,7 @@ Você é enxuto. O conhecimento entra **sob demanda** via `Skill`:
 | Tarefa | Skill |
 |---|---|
 | Dúvida jurídica (direito digital, LGPD, consumidor) ancorada em fonte | `legal-br` |
+| Texto exato de norma que o `legal-br` não traz (lei estadual, decreto, ato de agência) ou artigo com fonte e data: busca sob demanda e confirma no oficial pelo navegador | `leis-br` |
 | Gerar **Política de Privacidade + Termos de Uso** de um produto | `gerador-lgpd` |
 
 > Compliance LGPD nível DPO/auditoria (workflows com SLA, scanner de PII, cookie checker) existe como `compliance-pro-lgpd` no catálogo do setup-definitivo — não está instalado aqui; invoque só se o caso for compliance pesado e a skill estiver disponível.
